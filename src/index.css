@@ -1,0 +1,98 @@
+/* ========== Global Reset ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== Body Styles ========== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* ========== Links ========== */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #00a8ff;
+}
+
+/* ========== Navbar ========== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f3640;
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav h2 {
+  color: #f5f6fa;
+  font-size: 1.4rem;
+}
+
+nav div {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #f5f6fa;
+  font-weight: 500;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  color: #00a8ff;
+  transform: scale(1.05);
+}
+
+/* ========== Page Layout ========== */
+.container {
+  padding: 40px 60px;
+}
+
+h1,
+h2,
+h3 {
+  color: #2f3640;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* ========== Buttons ========== */
+button {
+  background-color: #00a8ff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #0097e6;
+  transform: scale(1.05);
+}
+
+/* ========== Error Page ========== */
+.error {
+  text-align: center;
+  padding: 100px 20px;
+  color: #c23616;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
